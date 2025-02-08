@@ -1,0 +1,2 @@
+# About
+Write Code Everydayのためのリポジトリ
