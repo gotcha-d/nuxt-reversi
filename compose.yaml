@@ -1,0 +1,12 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: web.dockerfile
+    volumes:
+      - type: bind
+        source: ./app
+        target: /app
+    ports:
+      - 8080:3000
+    tty: true
